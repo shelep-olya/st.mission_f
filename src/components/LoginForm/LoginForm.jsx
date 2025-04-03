@@ -1,9 +1,9 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./RegisterForm.css";
-import backgroundImage from "../assets/Registration_Banner.png";
+import "./LoginForm.css";
+import backgroundImage from "../../assets/Registration_Banner.png";
 
-const RegisterForm = () => {
+const LoginForm = () => {
   return (
     <div className="register-container">
       <div className="content-container">
@@ -22,7 +22,7 @@ const RegisterForm = () => {
                 type="text"
                 name="email"
                 id="email"
-                placeholder="yourname@example.com"
+                placeholder="john_doe3415@domain.com"
                 required
               />
             </div>
@@ -56,4 +56,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default LoginForm;
