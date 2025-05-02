@@ -1,0 +1,108 @@
+.task-detail-container {
+  background: var(--primary-bg-color);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.subject-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subject-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #e6e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #5b5ee5;
+}
+
+.subject-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.teacher-info span {
+  color: #888;
+  display: block;
+}
+
+.teacher-info strong {
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.task-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.info-label {
+  font-size: 12px;
+  color: #888;
+  display: block;
+}
+
+.info-value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.achievement {
+  background: transparent;
+  border: 1px solid #5b5ee5;
+  color: #5b5ee5;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.submission-box {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.deadline-info {
+  margin-top: 16px;
+}
+
+.deadline {
+  font-size: 14px;
+  color: #5b5ee5;
+}
+
+.submit-button {
+  background: #5b5ee5;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 12px;
+}

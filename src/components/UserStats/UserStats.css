@@ -1,13 +1,14 @@
 .user-info-container {
   height: 100vh;
-  width: 380px;
-  padding: 20px 32px;
+  width: 340px;
   background: #fff;
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  right: 0px;
-  transform: translateY(-50%);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 .statistic-title {
@@ -17,6 +18,12 @@
   margin-bottom: 24px;
 }
 
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .achievement-circle {
   width: 112px;
   height: 112px;
@@ -28,6 +35,7 @@
   background: linear-gradient(to top, #98b2ff, #5b5ee5);
   color: white;
   font-size: 48px;
+  text-align: center;
 }
 
 .user-greeting {
