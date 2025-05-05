@@ -1,7 +1,7 @@
 import React from "react";
 import TaskDetail from "../../components/TaskDetail/TaskDetail";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import BannerImg from "../../assets/Dashboard_banner_full_screen.png";
+import BannerImg from "../../assets/Banner.svg";
 
 function TaskDetailPage() {
   return (

@@ -13,8 +13,8 @@ const TaskCard = () => {
       </div>
 
       <div className="task-actions">
-        <button className="submit-btn">Здати роботу</button>
-        <button className="details-btn">Деталі</button>
+        <button className="submit-task-btn">Здати роботу</button>
+        <button className="details-task-btn">Деталі</button>
       </div>
     </div>
   );

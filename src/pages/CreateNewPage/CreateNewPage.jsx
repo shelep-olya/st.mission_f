@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import CreateNewForm from "../../components/CreateNewForm/CreateNewForm";
-import BannerImg from "../../assets/Dashboard_banner_full_screen.png";
+import BannerImg from "../../assets/Banner.svg";
 function CreateNewPage() {
   return (
     <div style={{ display: "flex", height: "100vh" }}>

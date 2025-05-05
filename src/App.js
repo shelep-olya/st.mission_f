@@ -1,18 +1,22 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import "./App.css";
-import LoginForm from "./components/LoginForm/LoginForm";
-import SignupForm from "./components/SignupForm/SignupForm";
 import DashboardPage from "./pages/DashboardPage/DashboardPage";
-import TaskDetailPage from "./pages/TaskDetailPage/TaskDetailPage";
 import CreateNewPage from "./pages/CreateNewPage/CreateNewPage";
 function App() {
   return (
-    <div className="App">
-      <CreateNewPage />
-      <DashboardPage />
-      <TaskDetailPage />
-      <SignupForm />
-      <LoginForm />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/assignments" element={<DashboardPage />} />
+        <Route path="/create" element={<CreateNewPage />} />
+      </Routes>
+    </Router>
   );
 }
 

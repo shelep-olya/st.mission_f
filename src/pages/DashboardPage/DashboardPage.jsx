@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import TaskCard from "../../components/TaskCard/TaskCard";
 import UserStats from "../../components/UserStats/UserStats";
-import BannerImg from "../../assets/Dashboard_banner_full_screen.png";
+import BannerImg from "../../assets/Banner.svg";
 const mockTasks = [
   { id: 1, title: "Task 1", description: "Do the first task" },
   { id: 2, title: "Task 2", description: "Another task to handle" },

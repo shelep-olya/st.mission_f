@@ -33,7 +33,7 @@
   gap: 4px;
 }
 
-.submit-btn {
+.submit-task-btn {
   background: var(--accent-color);
   color: var(--primary-bg-color);
   border: none;
@@ -43,12 +43,12 @@
   font-size: 14px;
 }
 
-.submit-btn:hover {
+.submit-task-btn:hover {
   background: #3639d7;
   transition: all 0.3s;
 }
 
-.details-btn {
+.details-task-btn {
   background: none;
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
@@ -58,7 +58,7 @@
   font-size: 14px;
 }
 
-.details-btn:hover {
+.details-task-btn:hover {
   border-color: #3639d7;
   color: #3639d7;
   transition: all 0.3s;
