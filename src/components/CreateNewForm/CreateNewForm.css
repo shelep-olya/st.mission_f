@@ -1,7 +1,9 @@
 .create-new-container {
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
+  border: 1px solid #acadb1;
   background: white;
+  width: 500px;
   border-radius: 12px;
 }
 

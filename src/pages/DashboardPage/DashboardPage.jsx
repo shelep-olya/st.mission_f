@@ -10,12 +10,14 @@ const mockTasks = [
 ];
 function DashboardPage() {
   return (
-    <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+    <div style={{ display: "flex", flexDirection: 'column', height: "100vh", gap: '20px', width: '100dvw', overflow: "hidden", padding: "16px" }}>
       <div style={{ flexShrink: 0 }}>
         <Sidebar />
       </div>
 
-      <div style={{ flex: 1, overflowY: "auto", padding: "20px 16px" }}>
+      <div style={{ display: "flex", flex: 1, overflow: "hidden", gap: '20px' }}>
+
+      <div style={{ flex: 1, overflowY: "auto"}}>
         <img
           src={BannerImg}
           alt="Description"
@@ -30,6 +32,8 @@ function DashboardPage() {
 
       <div style={{ flexShrink: 0 }}>
         <UserStats />
+      </div>
+
       </div>
     </div>
   );

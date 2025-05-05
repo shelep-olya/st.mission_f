@@ -39,15 +39,6 @@ const UserStats = () => {
         <button className="info-button">
           Log out <img src={arrowIcon} alt="Arrow" />
         </button>
-        <button className="info-button">
-          Know more <img src={arrowIcon} alt="Arrow" />
-        </button>
-        <button className="info-button">
-          Help <img src={arrowIcon} alt="Arrow" />
-        </button>
-        <button className="info-button">
-          Change role <img src={arrowIcon} alt="Arrow" />
-        </button>
       </div>
     </div>
   );

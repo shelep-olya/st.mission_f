@@ -4,20 +4,22 @@ import CreateNewForm from "../../components/CreateNewForm/CreateNewForm";
 import BannerImg from "../../assets/Banner.svg";
 function CreateNewPage() {
   return (
-    <div style={{ display: "flex", height: "100vh" }}>
+    <div style={{ display: "flex", flexDirection: 'column', height: "100vh", gap: '20px', width: '100dvw', overflow: "hidden", padding: "16px" }}>
       <Sidebar />
       <div
         style={{
-          flex: 1,
-          padding: "20px 32px 20px 16px",
+          display: "flex",
+          gap: "20px",
+          height: 700,
+          flexDirection: "row-reverse",
+          overflow: "hidden",
           boxSizing: "border-box",
-          overflowY: "auto",
         }}
       >
         <img
           src={BannerImg}
           alt="Description"
-          style={{ width: "100%", objectFit: "cover", marginBottom: "16px" }}
+          style={{ width: 'calc(100dvw - 560px)', objectFit: "contain", borderRadius: "12px" }}
         />
 
         <CreateNewForm />

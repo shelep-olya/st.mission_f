@@ -1,7 +1,7 @@
 import "./Sidebar.css";
 import { Link, useLocation } from "react-router-dom";
 import AddIcon from "../../assets/Add.svg";
-import TasksIcon from "../../assets/Tasks.svg";
+
 import DashboardIcon from "../../assets/Dashboard.svg";
 import Logo from "../../assets/Logo.svg";
 
@@ -25,18 +25,6 @@ const Sidebar = () => {
             <img src={DashboardIcon} alt="Dashboard" />
           </span>
           <span>Dashboard</span>
-        </Link>
-
-        <Link
-          to="/assignments"
-          className={`nav-item ${
-            location.pathname === "/assignments" ? "active" : ""
-          }`}
-        >
-          <span className="icon">
-            <img src={TasksIcon} alt="My Assignments" />
-          </span>
-          <span>My Assignments</span>
         </Link>
 
         <Link

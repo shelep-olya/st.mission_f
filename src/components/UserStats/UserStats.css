@@ -1,5 +1,7 @@
 .user-info-container {
-  height: 100vh;
+  height: calc(100dvh - 140px);
+  border-radius: 12px;
+  border: 1px solid #acadb1;
   width: 340px;
   background: #fff;
   padding: 20px 16px;
