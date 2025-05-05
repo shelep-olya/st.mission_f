@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/st.mission_f/static/css/main.994324c1.css",
+    "main.js": "/st.mission_f/static/js/main.b05edc52.js",
+    "static/media/Banner.svg": "/st.mission_f/static/media/Banner.9fdf31d33567b4c224233ba6901f1338.svg",
+    "static/media/Logo.svg": "/st.mission_f/static/media/Logo.960725eb833e676c3fd720791ca5d6ac.svg",
+    "static/media/Dashboard.svg": "/st.mission_f/static/media/Dashboard.2fd25f26b8e8d009f393fb8932dd35ef.svg",
+    "static/media/Tasks.svg": "/st.mission_f/static/media/Tasks.b3921beacd946b90fe484fa4f848413f.svg",
+    "static/media/Add.svg": "/st.mission_f/static/media/Add.14ef2f2406e4c115a9ca60692f6ec61d.svg",
+    "index.html": "/st.mission_f/index.html",
+    "static/media/Arrow.svg": "/st.mission_f/static/media/Arrow.eb44cb23c03d7a81668d1ddeddd569ce.svg",
+    "main.994324c1.css.map": "/st.mission_f/static/css/main.994324c1.css.map",
+    "main.b05edc52.js.map": "/st.mission_f/static/js/main.b05edc52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.994324c1.css",
+    "static/js/main.b05edc52.js"
+  ]
+}
