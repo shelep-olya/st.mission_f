@@ -1,19 +1,20 @@
 .task-detail-container {
+  flex: 1;
   background: var(--primary-bg-color);
   border-radius: 12px;
   padding: 24px;
-  max-width: 1120px;
-  margin: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .task-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
-.subject-info {
+.subject {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -28,7 +29,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: #5b5ee5;
+  color: var(--text-color);
 }
 
 .subject-title {
@@ -36,12 +37,12 @@
   font-weight: bold;
 }
 
-.teacher-info span {
+.teacher span {
   color: #888;
   display: block;
 }
 
-.teacher-info strong {
+.teacher strong {
   font-weight: bold;
 }
 
@@ -56,8 +57,13 @@
   justify-content: space-between;
   margin-bottom: 16px;
 }
+.task-info div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 
-.info-label {
+.label {
   font-size: 12px;
   color: #888;
   display: block;
@@ -65,7 +71,7 @@
 
 .info-value {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .achievement {
@@ -78,31 +84,36 @@
   font-size: 12px;
 }
 
-.submission-box {
+.submission-area textarea {
   width: 100%;
-  height: 120px;
+  height: 300px;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 8px;
   font-size: 14px;
 }
 
-.deadline-info {
-  margin-top: 16px;
+.task-footer {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deadline span {
+  color: #a7a7a7;
 }
 
 .deadline {
-  font-size: 14px;
+  font-size: 16px;
   color: #5b5ee5;
 }
 
-.submit-button {
+.submit-btn {
   background: #5b5ee5;
   color: #fff;
   border: none;
-  padding: 10px 16px;
+  padding: 8px 36px;
   border-radius: 8px;
   font-size: 14px;
   cursor: pointer;
-  margin-top: 12px;
 }

@@ -3,11 +3,11 @@ import "./TaskDetail.css";
 
 const TaskDetail = () => {
   return (
-    <div className="task-container">
+    <div className="task-detail-container">
       <div className="task-header">
         <div className="subject">
           <div className="subject-icon">OOP</div>
-          <h2>Object Oriented Programming</h2>
+          <h2 className="subject-title">Object Oriented Programming</h2>
         </div>
         <div className="teacher">
           <span>Teacher</span>
@@ -28,13 +28,11 @@ const TaskDetail = () => {
       <div className="task-info">
         <div>
           <span className="label">Type Of Submission</span>
-          <p>Text</p>
+          <p className="info-value">Text</p>
         </div>
         <div>
           <span className="label">Maximum Number Of Points You'll Get</span>
-          <p>
-            <strong>20.00</strong>
-          </p>
+          <p className="info-value">20.00</p>
         </div>
         <div>
           <span className="label">Possible Achievements</span>

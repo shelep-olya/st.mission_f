@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import TaskCard from "../../components/TaskCard/TaskCard";
 import UserStats from "../../components/UserStats/UserStats";
-
+import BannerImg from "../../assets/Dashboard_banner_full_screen.png";
 const mockTasks = [
   { id: 1, title: "Task 1", description: "Do the first task" },
   { id: 2, title: "Task 2", description: "Another task to handle" },
@@ -16,6 +16,11 @@ function DashboardPage() {
       </div>
 
       <div style={{ flex: 1, overflowY: "auto", padding: "20px 16px" }}>
+        <img
+          src={BannerImg}
+          alt="Description"
+          style={{ width: "100%", objectFit: "cover", marginBottom: "16px" }}
+        />
         {mockTasks.map((task) => (
           <div key={task.id} style={{ marginBottom: "16px", width: "100%" }}>
             <TaskCard title={task.title} description={task.description} />
