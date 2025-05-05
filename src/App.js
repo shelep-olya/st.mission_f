@@ -3,11 +3,11 @@ import LoginForm from "./components/LoginForm/LoginForm";
 import SignupForm from "./components/SignupForm/SignupForm";
 import DashboardPage from "./pages/DashboardPage/DashboardPage";
 import TaskDetailPage from "./pages/TaskDetailPage/TaskDetailPage";
-import CreateNewForm from "./components/CreateNewForm/CreateNewForm";
+import CreateNewPage from "./pages/CreateNewPage/CreateNewPage";
 function App() {
   return (
     <div className="App">
-      <CreateNewForm />
+      <CreateNewPage />
       <DashboardPage />
       <TaskDetailPage />
       <SignupForm />
