@@ -1,16 +1,17 @@
 import "./App.css";
-// import LoginForm from "./components/LoginForm/LoginForm";
-// import SignupForm from "./components/SignupForm/SignupForm";
-// import Sidebar from "./components/Sidebar/Sidebar";
-// import TaskCard from "./components/TaskCard.jsx/TaskCard";
-// import UserStats from "./components/UserStats/UserStats";
-// import TaskDetail from "./components/TaskDetail/TaskDetail";
+import LoginForm from "./components/LoginForm/LoginForm";
+import SignupForm from "./components/SignupForm/SignupForm";
 import DashboardPage from "./pages/DashboardPage/DashboardPage";
-//import TaskDetailPage from "./pages/TaskDetailPage/TaskDetailPage";
+import TaskDetailPage from "./pages/TaskDetailPage/TaskDetailPage";
+import CreateNewForm from "./components/CreateNewForm/CreateNewForm";
 function App() {
   return (
     <div className="App">
+      <CreateNewForm />
       <DashboardPage />
+      <TaskDetailPage />
+      <SignupForm />
+      <LoginForm />
     </div>
   );
 }
